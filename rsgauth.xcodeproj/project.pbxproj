@@ -37,8 +37,8 @@
 		7BD6B93029E272FD0070A159 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		7BD6B93229E27FAC0070A159 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		7BD6B93529E323200070A159 /* TestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObject.swift; sourceTree = "<group>"; };
-		ED0C7678DF2B0BCF0602BC24 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
-		F7185F7DFD18A3F9A0764879 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		ED0C7678DF2B0BCF0602BC24 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; name = awsconfiguration.json; path = rsgauth/awsconfiguration.json; sourceTree = "<group>"; };
+		F7185F7DFD18A3F9A0764879 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; name = amplifyconfiguration.json; path = rsgauth/amplifyconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,8 @@
 		7BD6B90329E26D4D0070A159 = {
 			isa = PBXGroup;
 			children = (
+				ED0C7678DF2B0BCF0602BC24 /* awsconfiguration.json */,
+				F7185F7DFD18A3F9A0764879 /* amplifyconfiguration.json */,
 				7BD6B90E29E26D4D0070A159 /* rsgauth */,
 				7BD6B90D29E26D4D0070A159 /* Products */,
 				F50DA75049859C2630FB06D9 /* AmplifyConfig */,
@@ -76,8 +78,6 @@
 		7BD6B90E29E26D4D0070A159 /* rsgauth */ = {
 			isa = PBXGroup;
 			children = (
-				ED0C7678DF2B0BCF0602BC24 /* awsconfiguration.json */,
-				F7185F7DFD18A3F9A0764879 /* amplifyconfiguration.json */,
 				7BD6B92629E272480070A159 /* ConfirmationView.swift */,
 				7BD6B90F29E26D4D0070A159 /* rsgauthApp.swift */,
 				7BD6B91129E26D4D0070A159 /* ContentView.swift */,
