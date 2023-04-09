@@ -76,6 +76,8 @@
 		7BD6B90E29E26D4D0070A159 /* rsgauth */ = {
 			isa = PBXGroup;
 			children = (
+				ED0C7678DF2B0BCF0602BC24 /* awsconfiguration.json */,
+				F7185F7DFD18A3F9A0764879 /* amplifyconfiguration.json */,
 				7BD6B92629E272480070A159 /* ConfirmationView.swift */,
 				7BD6B90F29E26D4D0070A159 /* rsgauthApp.swift */,
 				7BD6B91129E26D4D0070A159 /* ContentView.swift */,
@@ -101,8 +103,6 @@
 		F50DA75049859C2630FB06D9 /* AmplifyConfig */ = {
 			isa = PBXGroup;
 			children = (
-				ED0C7678DF2B0BCF0602BC24 /* awsconfiguration.json */,
-				F7185F7DFD18A3F9A0764879 /* amplifyconfiguration.json */,
 			);
 			name = AmplifyConfig;
 			sourceTree = "<group>";
