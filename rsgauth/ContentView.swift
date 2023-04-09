@@ -1,19 +1,21 @@
 //
 //  ContentView.swift
-//  rsgauth
+//  swift-amplify-cognito
 //
-//  Created by Ross Gill on 4/8/23.
+//  Created by Ross Gill on 3/30/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var environmentObject: TestObject
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world! \(environmentObject.num)")
         }
         .padding()
     }
