@@ -19,6 +19,7 @@ struct LoginView: View {
             Spacer()
             
             TextField("Username", text: $username)
+                .autocapitalization(.none)
             SecureField("Password", text: $password)
             Button("Login", action: {
                 Task {
