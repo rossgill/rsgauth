@@ -20,7 +20,9 @@ struct SignUpView: View {
             Spacer()
             
             TextField("Username", text: $username)
+                .autocapitalization(.none)
             TextField("Email", text: $email)
+                .keyboardType(.emailAddress)
             SecureField("Password", text: $password)
             Button("Sign Up", action: {
                 Task {
