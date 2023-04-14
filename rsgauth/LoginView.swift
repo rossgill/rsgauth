@@ -31,7 +31,7 @@ struct LoginView: View {
             })
             
             Spacer()
-            Button("Already have an account? Log in", action: {
+            Button("Register here", action: {
                 sessionManager.showSignUp()
             })
         }
